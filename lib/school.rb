@@ -9,7 +9,7 @@ class School
   end
   
   def add_student(name, grade)
-    @@roster.store  
+    @@roster.store(:name)  
   end
   
 end
