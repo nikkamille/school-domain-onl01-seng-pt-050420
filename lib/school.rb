@@ -20,7 +20,7 @@ class School
   end
   
   def sort 
-    sorted = @roster.sort_by { |grade, name| name <=> name }
+    sorted = @roster.sort_by { |name| name <=> name }
   end
   
 end
